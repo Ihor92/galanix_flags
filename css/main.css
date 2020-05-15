@@ -1,0 +1,66 @@
+@import './ukraine.css';
+@import './japan.css';
+@import './iceland.css';
+@import './czech-republic.css';
+
+:root {
+  /* size */
+  --width-flags: 300px;
+  --height-flags: 130px;
+
+  /* color */
+  --color-red: rgb(255, 0, 0);
+  --color-blue: rgb(46, 46, 163);
+  --color-white: rgb(255, 255, 255);
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.country {
+  background: rgb(136, 136, 136);
+  width: 100%;
+}
+
+.country_title {
+  color: var(--color-white);
+  font-family: sans-serif;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.ukraine_title,
+.japan_title,
+.iceland_title,
+.czech-republic_title {
+  color: var(--color-white);
+  font-family: sans-serif;
+  margin: 0 0 0 75px;
+}
+
+.hr {
+  width: 80%;
+}
+
+.ukraine_block,
+.japan_block,
+.iceland_block,
+.czech-republic_block {
+  width: 400px;
+  height: 200px;
+  background: var(--color-white);
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ukraine_wrap,
+.japan_wrap,
+.iceland_wrap,
+.czech-republic_wrap {
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.5);
+}

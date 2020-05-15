@@ -1,0 +1,15 @@
+.ukraine {
+  padding-top: 50px;
+}
+
+.ukraine__color-top {
+  width: var(--width-flags);
+  height: 65px;
+  background: rgb(73, 73, 202);
+}
+
+.ukraine__color-bottom {
+  width: var(--width-flags);
+  height: 65px;
+  background: rgb(255, 217, 4);
+}

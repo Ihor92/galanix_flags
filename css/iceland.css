@@ -1,0 +1,46 @@
+.iceland {
+  padding-top: 50px;
+}
+
+.iceland_emblem {
+  width: var(--width-flags);
+  height: var(--height-flags);
+  background: var(--color-red);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.iceland_top-left {
+  background: var(--color-blue);
+  width: 55px;
+  height: 55px;
+  border-bottom: 6px solid var(--color-white);
+  border-right: 6px solid var(--color-white);
+}
+
+.iceland_top-right {
+  background: var(--color-blue);
+  width: 220px;
+  height: 55px;
+  border-bottom: 6px solid var(--color-white);
+  border-left: 6px solid var(--color-white);
+}
+
+.iceland_bottom-left {
+  background: var(--color-blue);
+  width: 55px;
+  height: 55px;
+  align-self: flex-end;
+  border-top: 6px solid var(--color-white);
+  border-right: 6px solid var(--color-white);
+}
+
+.iceland_bottom-right {
+  background: var(--color-blue);
+  width: 220px;
+  height: 55px;
+  align-self: flex-end;
+  border-top: 6px solid var(--color-white);
+  border-left: 6px solid var(--color-white);
+}

@@ -1,0 +1,23 @@
+.czech-republic {
+  padding: 50px 0;
+}
+
+.czech-republic_emblem {
+  width: var(--width-flags);
+  position: relative;
+  height: var(--height-flags);
+}
+
+.czech-republic_triangle {
+  background: var(--color-blue);
+  height: 100%;
+  width: 80px;
+  clip-path: polygon(100% 50%, 0 5%, 0 95%);
+  position: absolute;
+}
+
+.czech-republic_emblem-top {
+  width: var(--width-flags);
+  height: 65px;
+  background: var(--color-red);
+}
